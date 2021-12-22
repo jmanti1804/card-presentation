@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #003049;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 450px;
+    background: papayawhip;
+    border-radius: 20px;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    margin-top: 150px;
+}
+.card .portada{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-bottom: 4px solid white;
+}
+.card .perfil{
+    position: absolute;
+    left: calc(50% - 70px);
+    top: -70px;
+    border: 4px solid white;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.datos{
+    text-align: center;
+    margin-top: -70px;
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-around;
+    border-top: 25px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.left {
+    font-size: 1.2rem;
+    padding: 20px 100px 20px 100px;
+}
+.right {
+    font-size: 1.2rem;
+    padding: 20px 90px 20px 90px;
+}
+.boton{
+    padding: 25px 221px;
+    background-color: coral;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #003049;
+    font-weight: bold;
+}
